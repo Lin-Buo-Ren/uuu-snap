@@ -218,7 +218,7 @@ apps:
     command-chain:
       - bin/universal-update-utility-launch
 
-    completer: bash-completion/uuu
+    completer: bash-completion/universal-update-utility
 
     environment:
       # Snap runtime only ship C.UTF-8 locale
