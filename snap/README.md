@@ -7,9 +7,7 @@
 
 **This is the unofficial snap for Universal Update Utility**, *"Freescale/NXP I.MX Chip image deploy tools"*. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.
 
-<!-- Uncomment and modify this when you are provided a build status badge
-[![Build Status Badge of the `universal-update-utility` Snap](https://build.snapcraft.io/badge/Lin-Buo-Ren/uuu-snap.svg "Build Status of the `universal-update-utility` snap")](https://build.snapcraft.io/user/Lin-Buo-Ren/uuu-snap)
--->
+[![universal-update-utility](https://snapcraft.io//universal-update-utility/badge.svg)](https://snapcraft.io/universal-update-utility)
 
 ![Screenshot of the Snapped Application](local/screenshots/carbon-help.png "Screenshot of the Snapped Application")
 
