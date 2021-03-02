@@ -171,9 +171,11 @@ parts:
       "${SNAPCRAFT_STAGE}"/scriptlets/selective-checkout \
         --append-packaging-revision \
         --release-tag-prefix=uuu_
-
-    build-packages:
+    build-snaps:
       - cmake
+    build-packages:
+      # CMake shipped in Ubuntu 16.04(3.5.1) is too old
+      #- cmake
       - g++
       - libbz2-dev
       - libusb-1.0-0-dev
