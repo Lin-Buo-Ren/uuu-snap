@@ -3,6 +3,12 @@ This is the unofficial snap packaging for Universal Update Utility, [Snaps are u
 
 Refer [snap/README.md](snap/README.md) for user-oriented information.
 
+## Project obsoletion notice
+
+The packaging work of this snap is now transferred to the upstream, please refer to [NXPmicro/mfgtools: Freescale/NXP I.MX Chip image deploy tools.](https://github.com/NXPmicro/mfgtools) for more info.
+
+This project will be archived and serve for educational purposes.
+
 ## Remaining Tasks
 Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) are working to land snap install documentation and the [snapcraft.yaml](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus/blob/master/snap/snapcraft.yaml) upstream so Universal Update Utility can authoritatively publish future releases.
 
@@ -25,15 +31,15 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) ar
 - [x] Publish the confined snap in the Snap Store beta channel
 - [x] Update the install instructions in `snap/README.md`
 - [x] Post a call for testing on the [Snapcraft Forum](https://forum.snapcraft.io) - [template](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus/wiki/Call-for-Testing-Template) - [link](https://forum.snapcraft.io/t/call-for-testing-universal-update-utility/19952)
-- [ ] Publish the snap in the Snap Store stable channel
-- [ ] Update the install instructions in `snap/README.md`
+- [x] (skipped, already upstreamed) Publish the snap in the Snap Store stable channel
+- [ ] (skipped, already upstreamed) Update the install instructions in `snap/README.md`
 - [ ] Post an announcement in the [Snapcraft Forum](https://forum.snapcraft.io) - [template](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus/wiki/Release-Announcement-Template) - [link]()
-- [ ] Submit a pull request or patch upstream that adds the `snapcraft.yaml` and any required assets/launchers - [example](https://github.com/htacg/tidy-html5/pull/749) - [link]()
-- [ ] Submit a pull request or patch upstream that adds snap install documentation - [example](https://github.com/htacg/html-tidy.org/pull/11) - [link]()
+- [x] Submit a pull request or patch upstream that adds the `snapcraft.yaml` and any required assets/launchers - [example](https://github.com/htacg/tidy-html5/pull/749) - [link](https://github.com/NXPmicro/mfgtools/pull/255)
+- [ ] (skipped, already done by upstream) Submit a pull request or patch upstream that adds snap install documentation - [example](https://github.com/htacg/html-tidy.org/pull/11) - [link]()
 
 If the upstream accepts the PRs **AND** willing to maintain the package on the Snap Store:
-- [ ] Request upstream create a Snap Store developer account
-- [ ] Create a topic [under the `store` category in the Snapcrafters Forum](https://forum.snapcraft.io/c/store) to request the snap be transferred to upstream - [template](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus/wiki/Ownership-Transfer-Template#transfer-to-upstream) - [link]()
+- [x] Request upstream create a Snap Store developer account
+- [x] Create a topic [under the `store` category in the Snapcrafters Forum](https://forum.snapcraft.io/c/store) to request the snap be transferred to upstream - [template](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus/wiki/Ownership-Transfer-Template#transfer-to-upstream) - [link]()
 
 If the upstream rejects the offer:
 
